@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Shantell+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://lh3.googleusercontent.com/BPuOWMcO42VL7HtZ3cBAVNcSDKledXi3QI-omerI8BNwvuKlM6M5ROtZuwiPy_1aPeyN1NsOkxw3oC703CsNAGSnpFoNZOD638zzCHt79vNEBc1R8nB55eQ2kz_F9ZIJU4nVivvXOA=w2400);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row{
+    margin: 5%;
+    margin-right: 0%;
+    margin-top: 2.5%;
+    padding-right: 0;
+    padding: 0;
+}
+
+h1{
+    margin-left: -0.6%;
+}
+
+ul{
+    list-style-type: none;
+    color: #2c0e28bf;
+    font-weight: 500;
+}
+
+.submit{
+    position: relative;
+    left: -41%;
+    font-size: 15px;
+
+    background: linear-gradient(to bottom right, #ce30bea0, #d66f9fa4);
+    border: 0.5px solid rgba(0, 0, 0, 0.262);
+    color: black;
+}
+
+.submit:hover{
+    color: white;
+    background: #4a9ca3;
+    border: transparent;
+
+    background: linear-gradient(to bottom right, #8757b7, #b056b1);
+}
+
+.clear{
+    color: black;
+    position: relative;
+    left: -40.5%;
+    font-size: 15px;
+
+    background: linear-gradient(to bottom right, #d66f9f4c, #d66f9f4c);
+}
+
+input{
+    background: linear-gradient(to bottom right, rgba(255, 238, 85, 0.104), rgba(255, 253, 107, 0.197));
+}
+
+.contacts{
+    margin: 0;
+    margin-left: 0%;
+    margin-right: 2%;
+    padding: 0;
+
+    border: 0.2px solid rgba(87, 87, 87, 0.300);
+    border-radius: 8px;
+
+    backdrop-filter: blur(8px); 
+    background: linear-gradient(to bottom right, rgba(85, 236, 165, 0.700), rgb(43, 172, 247, 0.700), rgb(255, 238, 85, 0.700), rgb(255, 253, 107, 0.700));
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08);
+}
+
+.contacts-inner{
+    margin: 5%;
+    margin-bottom: -4%;
+}
+
+.contacts-inner h2{
+    margin-bottom: 3%;
+}
+
+.form{
+    margin: 0;
+    padding: 0;
+
+    border: 0.2px solid rgba(87, 87, 87, 0.300);
+    border-radius: 8px;
+
+    backdrop-filter: blur(8px); 
+    background: linear-gradient(to bottom right, rgba(85, 236, 165, 0.700), rgb(43, 172, 247, 0.700), rgb(255, 238, 85, 0.700), rgb(255, 253, 107, 0.700));
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08);
+}
+
+.form-inner{
+    margin: 2%;
+    margin-bottom: -4%;
+}
+
+.contacts, .form{
+    margin-top: 2.5%;
+}
+
+li:last-child hr{
+    color: rgba(0, 0, 0, 0);
+}
+
+label{
+    color:#000000bf;
+}
+
+h2{
+    color: #000000bf;
+    font-weight: bold;
+}
